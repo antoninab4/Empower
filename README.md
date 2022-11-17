@@ -3,6 +3,16 @@
 ```
 3CPU 4RAM 80GB
 ```
+##
+```
+# обновляем репозитории
+apt update && apt upgrade -y
+
+# устанавливаем необходимые утилиты
+apt install curl build-essential git wget jq make gcc tmux htop nvme-cli pkg-config libssl-dev libleveldb-dev tar clang bsdmainutils ncdu unzip libleveldb-dev -y
+
+```
+
 # Автоматическая установка
 ```
 source <(curl -s https://raw.githubusercontent.com/nodejumper-org/cosmos-scripts/master/empower/altruistic-1/install.sh)
